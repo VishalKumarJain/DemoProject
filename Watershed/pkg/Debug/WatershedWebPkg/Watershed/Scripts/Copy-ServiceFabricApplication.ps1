@@ -1,0 +1,4 @@
+#Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\Users\jsswm\source\repos\Api_prototype\Watershed\pkg\Debug" -ImageStoreConnectionString "fabric:ImageStore" -UseExistingClusterConnection:$true -ShowProgress -ShowProgressIntervalMilliseconds 500
+$global:clusterConnection = $clusterConnection
+Write-Host "request is Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\Users\jsswm\source\repos\Api_prototype\Watershed\pkg\Debug" -ImageStoreConnectionString "fabric:ImageStore" -TimeoutSec 2800 -CompressPackage true -ShowProgress -ShowProgressIntervalMilliseconds 500"
+Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\Users\jsswm\source\repos\Api_prototype\Watershed\pkg\Debug" -ImageStoreConnectionString "fabric:ImageStore" -TimeoutSec 2800 -CompressPackage true -ShowProgress -ShowProgressIntervalMilliseconds 500

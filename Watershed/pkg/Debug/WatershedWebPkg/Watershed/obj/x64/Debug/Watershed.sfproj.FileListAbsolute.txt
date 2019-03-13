@@ -1,0 +1,5 @@
+c:\users\jeff\source\repos\Watershed\Watershed\obj\x64\Debug\Watershed.sfproj.CoreCompileInputs.cache
+C:\Users\jsswm\source\repos\Watershed\Watershed\obj\x64\Debug\Watershed.sfproj.CoreCompileInputs.cache
+C:\Users\jsswm\source\repos\Api_prototype\Watershed\obj\x64\Debug\Watershed.sfproj.CoreCompileInputs.cache
+C:\ServiceFabric\Api_prototype-feature_add_owners_api\Watershed\obj\x64\Debug\Watershed.sfproj.CoreCompileInputs.cache
+D:\TY_VBA\Api_prototype-feature_add_owners_api\Watershed\obj\x64\Debug\Watershed.sfproj.CoreCompileInputs.cache

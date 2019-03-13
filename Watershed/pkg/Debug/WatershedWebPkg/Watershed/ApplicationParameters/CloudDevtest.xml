@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Watershed" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="WatershedAPIData_PartitionCount" Value="1" />
+    <Parameter Name="WatershedAPIData_MinReplicaSetSize" Value="1" />
+    <Parameter Name="WatershedAPIData_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="WatershedWeb_InstanceCount" Value="1" />
+    <Parameter Name="DataSource" Value="ifgchapsdev.database.windows.net" />
+    <Parameter Name="DataSource-pw" Value="!F6a$$wrd" />
+    <Parameter Name="DataSource-userid" Value="moses1026" />
+    <!--
+    <Parameter Name="InitialCatalog" Value="DB_CMS_TEST_11-19-18" />-->
+    <Parameter Name="InitialCatalog" Value="DB_CMS_DatamanTest" />
+    <Parameter Name="ProxyAddress" Value="http://localhost:19081" />
+  </Parameters>
+</Application>

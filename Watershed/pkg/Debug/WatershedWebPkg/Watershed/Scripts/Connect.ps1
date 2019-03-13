@@ -1,0 +1,2 @@
+Connect-ServiceFabricCluster -ConnectionEndpoint watershed.eastus.cloudapp.azure.com:19000 -KeepAliveIntervalInSec 10 -X509Credential -ServerCertThumbprint 71FF7342062581A76A98D00B1AD3B879EEA1CA8C -FindType FindByThumbprint -FindValue 71FF7342062581A76A98D00B1AD3B879EEA1CA8C -StoreLocation CurrentUser -StoreName My 
+		  
